@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0839a62b-b46a-4197-9420-4dae20bdc950",
+            "Value": {
+                "id": "5c1545f0-115b-4ef3-9204-51aa6fbca003",
+                "resourcePath": "sprites\\spr_Tiles\\spr_Tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a2d97d0-c831-45e0-9921-93a9d49f14f1",
             "Value": {
                 "id": "1e073c7d-f8c5-4f58-9463-08f909794015",
@@ -132,6 +140,14 @@
                 "id": "877596a3-2e3a-426d-b15d-33feb950e60d",
                 "resourcePath": "views\\4a4e5d63-d706-4518-afb3-0e7799cd76a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5adc3ded-c8f8-46f0-b138-a07ca4c7acb4",
+            "Value": {
+                "id": "9169fff5-a7d2-4bef-98e5-ea7a0bed5bd3",
+                "resourcePath": "objects\\obj_Camera\\obj_Camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "62b95d1f-4f9d-4d65-b856-b0d275dac9c2",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d31e5eba-c435-4d92-8f3a-41efde7df405",
+            "Value": {
+                "id": "96a002c7-0f2b-4530-b121-41bda2c6488f",
+                "resourcePath": "tilesets\\tileSet1\\tileSet1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
