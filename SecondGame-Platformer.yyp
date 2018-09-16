@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3990944c-970d-4ab8-b08a-3551a0167a49",
+            "Value": {
+                "id": "9bc229fe-7ee1-44d4-8a47-9800fa877688",
+                "resourcePath": "extensions\\Monster_Character\\Monster_Character.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "39eac25f-df97-4c5f-94bd-b9e050635615",
             "Value": {
                 "id": "c62c2d7a-4de8-4cfa-8815-8b15a1dd57a8",
@@ -135,11 +143,35 @@
             }
         },
         {
+            "Key": "41be9dfe-12db-4f07-9b3f-249cb8896530",
+            "Value": {
+                "id": "93de36b0-0d4b-4544-a67e-447f75449a2e",
+                "resourcePath": "sprites\\spr_MonsterDie\\spr_MonsterDie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46597c9a-29ea-4e92-8691-43c583c14811",
+            "Value": {
+                "id": "709af5dd-32a9-447e-a68c-4d9932d93528",
+                "resourcePath": "extensions\\Anime_Girl\\Anime_Girl.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "4a4e5d63-d706-4518-afb3-0e7799cd76a9",
             "Value": {
                 "id": "877596a3-2e3a-426d-b15d-33feb950e60d",
                 "resourcePath": "views\\4a4e5d63-d706-4518-afb3-0e7799cd76a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52bbdbe8-c02f-43a0-8eb2-2478be45e93f",
+            "Value": {
+                "id": "5bc27580-8091-4296-bfef-b2056fb03673",
+                "resourcePath": "objects\\obj_MonsterDie\\obj_MonsterDie.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +252,14 @@
                 "id": "096b4f8a-7edf-4d26-bc6b-6f01b8192a35",
                 "resourcePath": "sprites\\spr_jump\\spr_jump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a91a7e04-9e99-4770-b27a-5aabc5d2a324",
+            "Value": {
+                "id": "40aaa637-e4d3-4a43-9d91-37ae7d58538d",
+                "resourcePath": "objects\\obj_EnemyMonster\\obj_EnemyMonster.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -323,6 +363,14 @@
             "Value": {
                 "id": "f8c624d4-9e1b-4f51-adc9-0d5c4bbc72e0",
                 "resourcePath": "sprites\\spr_EnemyRun\\spr_EnemyRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d8c4911b-abcb-4b08-8abb-63b3d521506b",
+            "Value": {
+                "id": "bc2114d1-b6fa-489b-b86d-7955e694989f",
+                "resourcePath": "sprites\\spr_garbage\\spr_garbage.yy",
                 "resourceType": "GMSprite"
             }
         },
