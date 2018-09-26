@@ -22,3 +22,14 @@ shake_remain = max(0, shake_remain - ((1/shake_length) * shake_magnitude));
 
 // update the camera view
 camera_set_view_pos(cam,x - view_w_half,y - view_h_half);
+
+// gives the mountains some movement depth
+if (layer_exists("mountain_background"))
+{
+    layer_x("mountain_background", x / 2);
+}
+// gives the trees some movement depth
+if (layer_exists("trees_background"))
+{
+    layer_x("trees_background", x / 6);
+}
