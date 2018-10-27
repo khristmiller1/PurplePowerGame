@@ -7,6 +7,6 @@ grv = 0.3;
 done = 0;
 
 scr_rumble_screen(6,20);
-
 image_speed = 0;
+audio_play_sound(sound_die, 10, false);
 

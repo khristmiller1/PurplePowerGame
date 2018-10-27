@@ -9,6 +9,7 @@ if (mode != TRANS_MODE.OFF)
   {	  
 	 //percent =  max(0,percent - 0.05);
 	 percent = max (0, percent - max((percent/10), 0.005));
+	  
   }
   else
   {
@@ -42,6 +43,7 @@ if (mode != TRANS_MODE.OFF)
 		  
 		  case TRANS_MODE.RESTART:
 		  {
+			  
 			  game_restart();
 		     break;
 		  }

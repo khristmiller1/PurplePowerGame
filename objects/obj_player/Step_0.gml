@@ -67,6 +67,8 @@ if (!place_meeting(x,y+1,obj_wall)) // if sprite is in the air
 
 else
     {
+		if (sprite_index == spr_jump) audio_play_sound(sound_landing, 4, false);
+		
 		image_speed = 1;
 		if (hsp == 0)
 		{

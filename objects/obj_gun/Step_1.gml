@@ -11,6 +11,8 @@ if (mouse_check_button(mb_left)) && (fire_delay < 0)
 {
 	recoil = 4;
     fire_delay = 5;
+	audio_play_sound(sound_bullets,5,false);
+	
 	with (instance_create_layer(x,y,"Bullets",obj_bullet))
 	{
 		speed = 25;
