@@ -12,7 +12,7 @@ if(instance_exists(obj_player))
    {
       image_yscale = -image_yscale;
    }
-   if(point_distance(obj_player.x, obj_player.y, x, y) < 600)
+   if(point_distance(obj_player.x, obj_player.y, x, y) < 300)
    {
       image_angle = point_direction(x, y, obj_player.x, obj_player.y)
 	  countdown--;

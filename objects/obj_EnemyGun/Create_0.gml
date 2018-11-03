@@ -1,4 +1,4 @@
 ///enemy gun
 
-countdownrate = 40;
+countdownrate = 100;
 countdown = countdownrate;
