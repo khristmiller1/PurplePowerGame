@@ -7,6 +7,9 @@ if(hasControl)
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(vk_up) || keyboard_check(ord("W"));
+	key_smile = keyboard_check(ord("P"));
+	make_gun = keyboard_check_pressed(ord("G"));
+		
 }
 
 else 
@@ -85,3 +88,24 @@ if (hsp != 0)
 {
     image_xscale = sign(hsp);	
 }
+
+
+// THIS WILL DESTROY THE GUN OBJECT 
+// TODO: FIX HOW MORE THAN ONE GUN CAN BE CREATED
+// sprite smile
+if (key_smile) && (num_of_gun >= 0)
+{	
+
+  sprite_index = spr_player_smile;
+  //obj_gun.visible = false;
+  instance_destroy(obj_gun);
+  num_of_gun = 0; 
+}
+
+if (make_gun) && (num_of_gun == 0)
+{
+	instance_create_layer(obj_player.x,obj_player.y,"Gun",obj_gun);
+    //obj_gun.visible = true;	
+	num_of_gun = 1;
+}
+

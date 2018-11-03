@@ -50,7 +50,7 @@ else
 		}
 		else
 		{
-		    sprite_index = spr_garbage;
+		    sprite_index = spr_garbage_run;
 		}
 	}
 

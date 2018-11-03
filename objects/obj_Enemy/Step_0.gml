@@ -1,7 +1,12 @@
 // FOR ENEMEY! Duplicated the player object and cut out some functionality
 
-
 vsp = vsp + grv;
+
+// Stop from walking off edges
+if (grounded) && (afraidOfHeights) && (!place_meeting(x + hsp, y+1, obj_wall))
+{
+    hsp = -hsp;
+}
 
 
 // Horizontal Collision
@@ -29,6 +34,7 @@ y = y + vsp;
 // Sprite Animation
 if (!place_meeting(x,y+1,obj_wall)) // if sprite is in the air
 {
+	grounded = false;
     sprite_index = spr_EnemyJump;
 	image_speed = 0; // effects the speed of sprite
 	if (sign(vsp) > 0)
@@ -43,6 +49,7 @@ if (!place_meeting(x,y+1,obj_wall)) // if sprite is in the air
 
 else
     {
+		grounded = true;
 		image_speed = 1;
 		if (hsp == 0)
 		{
