@@ -3,9 +3,9 @@
 
 vsp = 0; // vertical speed
 grv = 0.3; // gravity
-walksp = 2; // walking speed
+walksp = 5; // walking speed
 hsp = walksp; // horizontal speed
-hp = 6;
+hp = 12;
 flash = 0;
 hitfrom = 0;
 
