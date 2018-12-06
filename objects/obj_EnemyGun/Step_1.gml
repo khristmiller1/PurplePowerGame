@@ -21,7 +21,7 @@ if(instance_exists(obj_player))
 		  countdown = countdownrate;
 		  if (!collision_line(x, y, obj_player.x, obj_player.y, obj_wall, false, false))
 			{	    
-			    audio_play_sound(sound_bullets,5,false);	
+			    audio_play_sound(sound_slime,5,false);	
 				with (instance_create_layer(x,y,"Bullets",obj_EnemyBullet))
 			{
 				speed = 10;
